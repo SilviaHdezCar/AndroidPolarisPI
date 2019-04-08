@@ -17,7 +17,16 @@
         <activity
             android:name=".LoginActivity"
             android:label="@string/title_activity_login" />
-        <activity android:name=".Principal"></activity>
+        <activity
+            android:name=".Principal"
+            android:parentActivityName=".LoginActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.wposs_user.androidpolarispi.Principal" />
+        </activity>
+        <activity android:name=".Perfil" />
+        <activity android:name=".Productividad" />
+        <activity android:name=".Consultar_terminales_reparadas"></activity>
     </application>
 
 </manifest>

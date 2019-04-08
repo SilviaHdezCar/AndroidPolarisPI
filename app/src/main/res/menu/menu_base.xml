@@ -2,9 +2,28 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.example.wposs_user.androidpolarispi.base">
-    <item
-        android:id="@+id/action_settings"
-        android:orderInCategory="100"
-        android:title="@string/action_settings"
-        app:showAsAction="never" />
+    <!-- Search, should appear as action button -->
+
+
+    <item android:id="@+id/action_perfil"
+        android:title="Perfil"
+        />
+
+    <!-- Settings, should always be in the overflow -->
+    <item android:id="@+id/action_stock"
+        android:title="Stock"
+        />
+    <item android:id="@+id/action_consultar_terminales_reparadas"
+        android:title="Consutar terminales reparados"
+        />
+
+    <!-- Settings, should always be in the overflow -->
+    <item android:id="@+id/action_productividad"
+        android:title="Visualizar productividad"
+        />
+
+    <item android:id="@+id/action_cerrar_sesion"
+        android:title="Consutar terminales reparados"
+        />
+
 </menu>
