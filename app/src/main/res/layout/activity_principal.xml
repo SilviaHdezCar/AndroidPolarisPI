@@ -7,9 +7,9 @@
     tools:context=".Principal">
 
     <include
-        android:id="@+id/toolbar"
-        layout="@layout/toolbar">
+    android:id="@+id/toolbar"
+    layout="@layout/toolbar">
 
-    </include>
+</include>
 
 </RelativeLayout>
